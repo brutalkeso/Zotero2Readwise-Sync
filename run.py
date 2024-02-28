@@ -20,7 +20,7 @@ if __name__ == "__main__":
     )
     parser.add_argument(
         "--library_type",
-        default="user",
+        default="group",
         help="Zotero Library type ('user': for personal library (default value), 'group': for a shared library)",
     )
     parser.add_argument(
